@@ -22,67 +22,12 @@
             <artifactId>spring-web</artifactId>
             <version>3.2.10.RELEASE</version>
         </dependency>
-        <!-- MySQL -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.31</version>
-            <scope>runtime</scope>
-        </dependency>
-        <!-- Apache Commons DBCP -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-dbcp2</artifactId>
-            <version>2.0.1</version>
-        </dependency>
         <dependency>
 	        <groupId>javax.servlet</groupId>
 	        <artifactId>javax.servlet-api</artifactId>
 	        <version>3.0.1</version>
 	        <scope>provided</scope>
 	    </dependency>
-	    <!-- SiteMesh -->
-	    <dependency>
-	    	<groupId>org.sitemesh</groupId>
-	    	<artifactId>sitemesh</artifactId>
-	    	<version>3.0.0</version>
-	    </dependency>
-        <!-- TradingOS API Demo -->
-        <dependency>
-            <groupId>com.tradingos</groupId>
-            <artifactId>tradingos-api-demo</artifactId>
-            <version>[0.1.0,)</version>
-        </dependency>
-        <!-- TradingOS API Supplier -->
-        <dependency>
-            <groupId>com.tradingos</groupId>
-            <artifactId>tradingos-api-supplier</artifactId>
-            <version>[0.1.0,)</version>
-        </dependency>
-        <!-- TradingOS API Site -->
-        <dependency>
-            <groupId>com.tradingos</groupId>
-            <artifactId>tradingos-api-site</artifactId>
-            <version>[0.1.0,)</version>
-        </dependency>
-        <!-- TradingOS API Restriction -->
-        <dependency>
-            <groupId>com.tradingos</groupId>
-            <artifactId>tradingos-api-restriction</artifactId>
-            <version>[0.1.0,)</version>
-        </dependency>
-        <!-- TradingOS API Strategy -->
-        <dependency>
-            <groupId>com.tradingos</groupId>
-            <artifactId>tradingos-api-strategy</artifactId>
-            <version>[0.1.0,)</version>
-        </dependency>
-        <!-- TradingOS API AdSpace -->
-        <!--<dependency>
-        	<groupId>com.tradingos</groupId>
-        	<artifactId>tradingos-api-adspace</artifactId>
-        	<version>[0.1.0,)</version>
-        </dependency>-->
     </dependencies>
 
     <build>
